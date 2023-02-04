@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card {
+    border-radius: 14px 14px 14px 14px;
+    box-shadow: 10px 10px 24px -7px rgba(199, 197, 199, 1);
+}
+
+.card_footer {
+    padding: 8px;
+}
+
+.card_title {
+    margin: 0;
+    font-size: 17 px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; 
+
+}
