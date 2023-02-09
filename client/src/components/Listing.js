@@ -1,6 +1,6 @@
 import React from "react";
 
-const Listing = (dog_breeds, open) => {
+const Listing = ({dog_breeds, open}) => {
   return (
     <div className="featured-section" onClick={open}>
       <div className="featured-card"></div>
